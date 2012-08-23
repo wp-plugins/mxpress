@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: clemeric
+Contributors: clemeric, AndreSC
 Donate link: http://www.kazazoom.com/
 Tags: mxpress,mxit,wordpress,mobi,code,dev,app
 Requires at least: 3.0.1
@@ -40,13 +40,13 @@ mxPress also contains a variety of configuration values that allow you to decide
 
 = How do I install the plugin? =
 
-- Have a read through our Install Steps on the Official mxPress Site (http://www.mxpress.co.za)
+Have a read through our Install Steps on (http://www.mxpress.co.za/ "mxPress Site")
 
 = What happens after I have installed the plugin? =
 
-- Click on the Mxit Developer Site (http://dev.mxit.com) and register your Mxit App.
-- Read more about the process in the Mxit App Getting Started Guide.
-- Once you click “Create Mobi Portal”, you will be prompted for a URL. Simply enter the URL of your WordPress site.
+* Click on the Mxit Developer Site (dev.mxit.com) and register your Mxit App.
+* Read more about the process in the Mxit App Getting Started Guide.
+* Once you click “Create Mobi Portal”, you will be prompted for a URL. Simply enter the URL of your WordPress site.
 
 
 == Frequently Asked Questions ==
