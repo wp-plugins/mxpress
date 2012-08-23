@@ -44,9 +44,9 @@ Have a read through our Install Steps on the Official mxPress Site (http://www.m
 
 = What happens after I have installed the plugin? =
 
-* Click on the Mxit Developer Site (dev.mxit.com) and register your Mxit App.
-* Read more about the process in the Mxit App Getting Started Guide.
-* Once you click “Create Mobi Portal”, you will be prompted for a URL. Simply enter the URL of your WordPress site.
+* Go to the Mxit Developer Site (http://dev.mxit.com) and register your Mxit App.
+* Read more about the process in the Mxit App Getting Started Guide (http://dev.mxit.com/docs/mobi-portal-api/getting-started)
+* Once you click 'Create Mobi Portal', you will be prompted for a URL. Simply enter the URL of your WordPress site.
 
 
 == Frequently Asked Questions ==
