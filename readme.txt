@@ -2,7 +2,7 @@
 Contributors: clemeric
 Donate link: http://www.kazazoom.com/
 Tags: mxpress,mxit,wordpress,mobi,code,dev,app
-Requires at least: 3.4.1
+Requires at least: 3.0.1
 Tested up to: 3.4.1
 Stable tag: 0.0.9
 License: BSD-3 license
@@ -11,6 +11,8 @@ License URI: http://opensource.org/licenses/BSD-3-Clause
 The mxPress Plugin creates a Mxit comptaible version of your WordPress site.
 
 == Description ==
+
+Get your WordPress Blog or Website hosted as a Mxit App. Or create a new Blog in WordPress and host it as a funky new app in Mxit!
 
 = What is Mxit? =
 
@@ -22,12 +24,16 @@ Users on Mxit now not only send direct messages to each other, but also use Mxit
 = What does this plugin do? =
 
 In a nutshell, the mxPress WordPress Plugin allows anyone (even non-developers) who are currently running a Blog, Website, or Mobi Site using WordPress, to automatically show their WordPress site on Mxit as a contact.
-Mxit users can now invite “yourname.blog” on Mxit, and will then see your Blog on  their phone.
-As an example, invite “wpmx” on Mxit and see THIS SITE on Mxit. It is being displayed on Mxit by the mxPress plugin. All we did was install the plugin into this WordPress site that you are reading right now.
-Why would I use this plugin?
+
+As an example, invite “wpmx” on Mxit and see the http://www.mxpress.co.za WordPress site as a Mxit Contact on the Mxit platform. 
 
 Typically, to create a Mxit App you would need to code an App from scratch using the Mxit C# API or Mxit Mobi API. With this plugin, you do not need to do any development to get your existing (or new) WordPress site integrated with Mxit.
 Mxit has opened up their platform to 3rd party developers which means anybody, yes even you can host a Mxit App on the Mxit Platform, read more at the Mxit Developer Site.
+
+mxPress also contains a variety of configuration values that allow you to decide how you want your WordPress site to look on it's Mxit version. Some features include:
+- Ability to show a menu as first screen instead of content page
+- Ability to configure a separate Google Tracking code for your Mxit App vs your WordPress website.
+- And much more...
 
 
 == Installation ==
