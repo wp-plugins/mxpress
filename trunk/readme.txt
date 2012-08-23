@@ -4,15 +4,15 @@ Donate link: http://www.kazazoom.com/
 Tags: mxpress,mxit,wordpress,mobi,code,dev,app
 Requires at least: 3.4.1
 Tested up to: 3.4.1
-Stable tag:
+Stable tag: trunk
 License: BSD-3 license
 License URI: http://opensource.org/licenses/BSD-3-Clause
 
-The mxPress Plugin creates a Mxit comptaible version of your WordPress site. Allowing you to host a Mxit App via WordPress with no development required.
+The mxPress Plugin creates a Mxit comptaible version of your WordPress site.
 
 == Description ==
 
-- What is Mxit? - 
+= What is Mxit? =
 
 Mxit started in 2006 as a chat client for feature phones which allowed users to send messages to each other at low cost (using the data available on phones, rather than SMS)
 Since then, Mxit has grown to become the largest social network in South Africa, with 9.3 million active users measured in a 12 week period up to the end of June 2012.
@@ -64,4 +64,3 @@ http://www.mxpress.co.za/installsteps/#section3
 First version (beta).
 
 
-Here's a link to mxPress
