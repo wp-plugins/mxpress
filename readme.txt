@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: clemeric
+Contributors: clemeric, AndreSC
 Donate link: http://www.kazazoom.com/
 Tags: mxpress,mxit,wordpress,mobi,code,dev,app
 Requires at least: 3.0.1
