@@ -4,7 +4,7 @@ Donate link: http://www.kazazoom.com/
 Tags: mxpress,mxit,wordpress,mobi,code,dev,app
 Requires at least: 3.4.1
 Tested up to: 3.4.1
-Stable tag: trunk
+Stable tag: 0.0.9
 License: BSD-3 license
 License URI: http://opensource.org/licenses/BSD-3-Clause
 
