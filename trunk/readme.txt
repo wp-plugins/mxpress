@@ -25,7 +25,7 @@ Users on Mxit now not only send direct messages to each other, but also use Mxit
 
 In a nutshell, the mxPress WordPress Plugin allows anyone (even non-developers) who are currently running a Blog, Website, or Mobi Site using WordPress, to automatically show their WordPress site on Mxit as a contact.
 
-As an example, invite “wpmx” on Mxit and see the http://www.mxpress.co.za WordPress site as a Mxit Contact on the Mxit platform. 
+As an example, invite wpmx on Mxit and see the http://www.mxpress.co.za WordPress site as a Mxit Contact on the Mxit platform. 
 
 Typically, to create a Mxit App you would need to code an App from scratch using the Mxit C# API or Mxit Mobi API. With this plugin, you do not need to do any development to get your existing (or new) WordPress site integrated with Mxit.
 Mxit has opened up their platform to 3rd party developers which means anybody, yes even you can host a Mxit App on the Mxit Platform, read more at the Mxit Developer Site.
@@ -40,7 +40,7 @@ mxPress also contains a variety of configuration values that allow you to decide
 
 = How do I install the plugin? =
 
-Have a read through our Install Steps on (http://www.mxpress.co.za/ "mxPress Site")
+Have a read through our Install Steps on the Official mxPress Site (http://www.mxpress.co.za/installsteps/)
 
 = What happens after I have installed the plugin? =
 
@@ -53,7 +53,8 @@ Have a read through our Install Steps on (http://www.mxpress.co.za/ "mxPress Sit
 
 = Where can I get more detailed information about registering a Mxit App?  =
 
-http://www.mxpress.co.za/installsteps/#section3
+- Read more about how to register a Mxit app on the Official mxPress Site (http://www.mxpress.co.za/installsteps/#section3)
+- Or go straight to the Mxit Getting Started Guide on the Mxit Developer Site (http://dev.mxit.com/docs/mobi-portal-api/getting-started)
 
 
 == Screenshots ==
