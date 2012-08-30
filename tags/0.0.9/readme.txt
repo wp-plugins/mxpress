@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: clemeric, AndreSC
-Donate link: http://www.kazazoom.com/
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KAEWEBH8R7JM2&lc=ZA&item_name=Kazazoom&item_number=donmxp1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Tags: mxpress,mxit,wordpress,mobi,code,dev,app
 Requires at least: 3.0.1
 Tested up to: 3.4.1
