@@ -62,7 +62,7 @@ Have a read through our Install Steps on the Official mxPress Site (http://www.m
 1. This WordPress Site displayed through mxPass on Mxit App 'wpmx' (screenshot-1.png)
 2. Case Study of the SAGold Mxit App. This is how mxPress can render your Mxit App's Main Screen.
 3. Case Study of the SAGold Mxit App. This is how mxPress can render a category of Posts on Mxit.
-4. Case Study of the SAGold Mxit App. This is how mxPress can redner a WordPress Page on Mxit
+4. Case Study of the SAGold Mxit App. This is how mxPress can render a WordPress Page on Mxit
 
 
 == Changelog ==
