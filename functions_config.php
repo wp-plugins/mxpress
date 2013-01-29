@@ -56,7 +56,7 @@ function mxpress_isMixit() {
     $_query_string = $_SERVER['QUERY_STRING'];
     $doMxpressComment = $_GET['doMxpressComment'];
     $_mixitversion = stripos($_query_string, 'mxitversion');
-    if (($_SERVER['HTTP_X_MXIT_USERID_R'] || ($_mixitversion !== false) || ($_GET['debug_mxp'] == '1') || (1 == 1) ) // 
+    if (($_SERVER['HTTP_X_MXIT_USERID_R'] || ($_mixitversion !== false) || ($_GET['debug_mxp'] == '1') ) // 
             && (!is_admin())) {
         return true;
     } else {
