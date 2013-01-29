@@ -2,9 +2,9 @@
 Contributors: clemeric, AndreSC
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KAEWEBH8R7JM2&lc=ZA&item_name=Kazazoom&item_number=donmxp1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Tags: mxpress,mxit,wordpress,mobi,code,dev,app
-Requires at least: 3.0.1
-Tested up to: 3.4.1
-Stable tag: 0.0.9
+Requires at least: 3.5
+Tested up to: 3.5.1
+Stable tag: 0.1.0
 License: BSD-3 license
 License URI: http://opensource.org/licenses/BSD-3-Clause
 
@@ -44,9 +44,9 @@ Have a read through our Install Steps on the Official mxPress Site (http://www.m
 
 = What happens after I have installed the plugin? =
 
-* Click on the Mxit Developer Site (dev.mxit.com) and register your Mxit App.
-* Read more about the process in the Mxit App Getting Started Guide.
-* Once you click “Create Mobi Portal”, you will be prompted for a URL. Simply enter the URL of your WordPress site.
+* Go to the Mxit Developer Site (http://dev.mxit.com) and register your Mxit App.
+* Read more about the process in the Mxit App Getting Started Guide (http://dev.mxit.com/docs/mobi-portal-api/getting-started)
+* Once you click 'Create Mobi Portal', you will be prompted for a URL. Simply enter the URL of your WordPress site.
 
 
 == Frequently Asked Questions ==
@@ -59,15 +59,20 @@ Have a read through our Install Steps on the Official mxPress Site (http://www.m
 
 == Screenshots ==
 
-1. This WordPress Site displayed through mxPass on Mxit App 'wpmx' (screenshot-1.png)
-2. Case Study of the SAGold Mxit App. This is how mxPress can render your Mxit App's Main Screen.
-3. Case Study of the SAGold Mxit App. This is how mxPress can render a category of Posts on Mxit.
-4. Case Study of the SAGold Mxit App. This is how mxPress can render a WordPress Page on Mxit
+1. A WordPress site displayed through mxPass on Mxit App '1Wina'.
+2. This is how mxPress can render your Mxit App's Main Screen.
+3. This is how mxPress can render a category of Posts on Mxit.
+4. This is how mxPress can render a WordPress Page on Mxit.
+5. Find the MxPress admin configuration options under Appearance -> Mxit Options.
+6. Possible administrator customization options include uploading/selecting specific logo to use on Mxit, specifying menus to use on different content templates and more...
 
 
 == Changelog ==
 
+= 0.1.0 =
+First production version. 2013-01-29
+
 = 0.0.9 =
-First version (beta).
+First version (beta). 2012-06-09
 
 

@@ -1,6 +1,8 @@
 <?php
 
-function kzmx_wrap_old($pageless_content, $chunksize, $insert_str) {
+// email mxitID@mxit.im
+
+function mxpress_wrap_old($pageless_content, $chunksize, $insert_str) {
     // try to paginate content nicely, i.e. not break headings, bullets, table cells etc.
     // todo: strip class and similar atributes from tags
 
@@ -83,9 +85,9 @@ function kzmx_wrap_old($pageless_content, $chunksize, $insert_str) {
     }
     echo '<br><br>After:';
     var_dump($chunks);
-    $kzmx_content = implode("<!--nextpage-->
+    $mxpress_content = implode("<!--nextpage-->
         ", $chunks);
-    echo '<br><br><pre>' . htmlentities($kzmx_content) . '</pre>';
+    echo '<br><br><pre>' . htmlentities($mxpress_content) . '</pre>';
 }
 
 function tagname_ends_at($str) {

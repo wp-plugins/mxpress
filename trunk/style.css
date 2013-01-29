@@ -1,0 +1,14 @@
+
+.mxblock {margin:0; padding:2em 0 0;}
+.mxpsection {display:block;margin:0; background: #CCC; padding:0}
+.mxpsection-detail {display:block;margin:0; background: #EEE; padding:0}
+.mxpsection-detail p {margin:0}
+.mxpsection h3{margin: 0; padding:0}
+.mxpsection h3 a{display:block;margin: 0; padding:0.5em ; }
+#mxpress_sections_menu{display:block; height: 3em; clear:both; }
+.mxptab{display:block;background:#eee; float:left; margin:0.25em;}
+.mxptab a{display:block;margin:0;padding:1em 0.25em 0;}
+.mxptab a:hover{background:#fff;}
+.mxspacer{margin:0}
+.doShow { display: inherit; }
+.doHide { display: none; }
