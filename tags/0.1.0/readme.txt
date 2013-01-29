@@ -60,11 +60,8 @@ Have a read through our Install Steps on the Official mxPress Site (http://www.m
 == Screenshots ==
 
 1. A WordPress site displayed through mxPass on Mxit App 'kickoff'.
-2. This is how mxPress can render your Mxit App's Main Screen.
-3. This is how mxPress can render a category of Posts on Mxit.
-4. This is how mxPress can render a WordPress Page on Mxit.
-5. Find the MxPress admin configuration options under Appearance -> Mxit Options.
-6. Possible administrator customization options include uploading/selecting specific logo to use on Mxit, specifying menus to use on different content templates and more...
+2. Find the MxPress admin configuration options under Appearance -> Mxit Options.
+3. Possible administrator customization options include uploading/selecting specific logo to use on Mxit, specifying menus to use on different content templates and more...
 
 
 == Changelog ==
