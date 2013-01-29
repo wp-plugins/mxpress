@@ -59,7 +59,7 @@ Have a read through our Install Steps on the Official mxPress Site (http://www.m
 
 == Screenshots ==
 
-1. A WordPress site displayed through mxPass on Mxit App '1Wina'.
+1. A WordPress site displayed through mxPass on Mxit App 'kickoff'.
 2. This is how mxPress can render your Mxit App's Main Screen.
 3. This is how mxPress can render a category of Posts on Mxit.
 4. This is how mxPress can render a WordPress Page on Mxit.
