@@ -75,6 +75,8 @@ mxPress also contains a variety of configuration values that allow you to decide
 == Changelog ==
 
 = 1.0.1 =
+Bug fix. 2013-01-29
+
 Bug fix to make plugin only display Mxit version for Mxit requests, and not Web requests. If you know what you are doing, and want to always display the Mxit version change:
     if (($_SERVER['HTTP_X_MXIT_USERID_R'] || ($_mixitversion !== false) || ($_GET['debug_mxp'] == '1') ) // 
 to
