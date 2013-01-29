@@ -31,16 +31,24 @@ Typically, to create a Mxit App you would need to code an App from scratch using
 Mxit has opened up their platform to 3rd party developers which means anybody, yes even you can host a Mxit App on the Mxit Platform, read more at the Mxit Developer Site.
 
 mxPress also contains a variety of configuration values that allow you to decide how you want your WordPress site to look on it's Mxit version. Some features include:
-- Ability to show a menu as first screen instead of content page
-- Ability to configure a separate Google Tracking code for your Mxit App vs your WordPress website.
-- And much more...
-
+- Load your company logo as a front-page banner, the plugin auto scales it for the users screen size.
+- Use images in your posts and pages. mxPress will scale and cache the images for use on Mxit based on the user's screen size
+- Use WordPress template files to customize your Mxit Portal's layout.
+- Define a custom menu using the WordPress menu manager to create your Mxit Menu
+- Show your latest posts on your Mxit landing page
+- Integration with Mxit's approved advertising network, Shinka for showing banner ads.  Just simply add your ad unit ID's on the mxPress Mxit Settings page.
+- User's can now comment on posts from your Blog via Mxit!
+- Paging built in to allow for easy navigation of Posts as well as comments on posts.
+- Integration with Google Analytics tracking.
 
 == Installation ==
 
 = How do I install the plugin? =
 
-Have a read through our Install Steps on the Official mxPress Site (http://www.mxpress.co.za/installsteps/)
+- Simple open your Plugins page on your WordPress Admin Page, and search for "mxPress" and click on install. 
+- Then click on 'activate'.
+- Go to the 'Appearance / Mxit Settings' page, and configure either your Front-Page or Home Page, depending on whether you have your WordPress theme configured to show a static frontpage or the default homepage.
+- We recommended you create a new Menu in the WordPress Menu Manager called "Mxit Menu" with the pages and categories you want to show in Mxit, and then go to 'Appearance / Mxit Settings' to configure mxPress to show that Menu.
 
 = What happens after I have installed the plugin? =
 
