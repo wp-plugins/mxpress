@@ -1,32 +1,33 @@
 <?php
 
-/**
- * @package Kaza_Mxit
- * @version 0.1
- */
 /*
   Plugin Name: mxPress
   Plugin URI: http://www.mxpress.co.za
-  Description: mxPress automatically transforms your WordPress website into a Mxit App, visible on Mxit without affecting your normal theme or urls. Find settings under <b>Apearance &raquo; <a href="themes.php?page=kzmx_plugin">Mxit Options</a></b>. Requires a Mxit Service URL (register one at <a href="http://code.mxit.com" target="_new">code.mxit.com</a>)
+  Description: mxPress automatically transforms your WordPress website into a Mxit App, visible on Mxit without affecting your normal theme or urls. Find settings under <b>Apearance &raquo; <a href="themes.php?page=mxpress_plugin">Mxit Options</a></b>. Requires a Mxit Service URL (register one at <a href="http://code.mxit.com" target="_new">code.mxit.com</a>)
   Author: Kazazoom - Andre Clements & Eric Clements
-  Version: 0.0.9
+  Version: 0.0.22(beta dev)
   Author URI: http://kazazoom.com
- */ 
+ */
 
 require_once dirname(__FILE__) . '/config.php';
 
-add_action('admin_menu', 'kzmx_add_admin_page'); // see admin.php
-register_activation_hook( __FILE__, 'kzmx_activate' );
-add_action('wp', 'kzmx_render'); // does the translation
+include_once dirname(__FILE__) . '/admin.php';
 
-function kzmx_render() {
-    include_once dirname(__FILE__) . '/index.php';
+function mxpress_render() {
+    include_once dirname(__FILE__) . '/mxpress_index.php';
 }
 
-/*  
+function mxpress_get_version() {
+    $plugin_data = get_plugin_data(__FILE__);
+    
+    $plugin_version = $plugin_data['Version'];
+    return $plugin_version;
+}
+
+/*
  * todo:
  * *fix placement of titles via conditional options
- * *image uploader
+ * *image uploader - affected via native media library as of ver 0.0.16
  * *GAtrack external via redirect
  * *refactor
  * 
@@ -38,6 +39,19 @@ function kzmx_render() {
  * *internal db tracking/log
  * 
  * recent changes:
+ * 2012/11/05
+ * version 0.0.11
+ * comments listing and submit functionality
+ * fixed bugs with titles, category and content rendering logic
+ * improved logic for Menu | Back link in footer
+ * some refactoring code clean-up and more...
+ * 
+ * 2012/10
+ * version 0.0.10
+ * * Changed default options 
+ * * Inserted reset defaults for options
+ * * Admin section descriptions somewhat refined
+ * 
  * 2012/07/13
  * *plugin list details partially updated
  * *disable certain setting fields with coming soon notice
@@ -46,3 +60,4 @@ function kzmx_render() {
  * *fix bullets
  * *Google analytics
  */
+?>
