@@ -5,7 +5,7 @@
   Plugin URI: http://www.mxpress.co.za
   Description: mxPress automatically transforms your WordPress website into a Mxit App, visible on Mxit without affecting your normal theme or urls. Find settings under <b>Apearance &raquo; <a href="themes.php?page=mxpress_plugin">Mxit Options</a></b>. Requires a Mxit Service URL (register one at <a href="http://code.mxit.com" target="_new">code.mxit.com</a>)
   Author: Kazazoom - Andre Clements & Eric Clements
-  Version: 1.0.0
+  Version: 1.0.1
   Author URI: http://kazazoom.com
  */
 
