@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KAEWE
 Tags: mxpress,mxit,wordpress,mobi,code,dev,app
 Requires at least: 3.5
 Tested up to: 3.5.1
-Stable tag: 0.1.0
+Stable tag: 1.0.0
 License: BSD-3 license
 License URI: http://opensource.org/licenses/BSD-3-Clause
 
