@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KAEWE
 Tags: mxpress,mxit,wordpress,mobi,code,dev,app
 Requires at least: 3.5
 Tested up to: 3.5.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: BSD-3 license
 License URI: http://opensource.org/licenses/BSD-3-Clause
 
@@ -74,6 +74,13 @@ mxPress also contains a variety of configuration values that allow you to decide
 
 == Changelog ==
 
+= 1.0.1 =
+Bug fix to make plugin only display Mxit version for Mxit requests, and not Web requests. If you know what you are doing, and want to always display the Mxit version change:
+    if (($_SERVER['HTTP_X_MXIT_USERID_R'] || ($_mixitversion !== false) || ($_GET['debug_mxp'] == '1') ) // 
+to
+	if (($_SERVER['HTTP_X_MXIT_USERID_R'] || ($_mixitversion !== false) || ($_GET['debug_mxp'] == '1') || 1==1) // 
+in functions_config.php
+	
 = 1.0.0 =
 Public release of first production version. 2013-01-29
 
