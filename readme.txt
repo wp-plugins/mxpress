@@ -74,6 +74,19 @@ mxPress also contains a variety of configuration values that allow you to decide
 
 == Changelog ==
 
+= 1.0.0 =
+Public release of first production version. 2013-01-29
+
+New features include:
+- User's can now comment on posts/articles via Mxit!
+- Load your company logo as a front-page banner, the plugin auto scales it for the users screen size.
+- Use images in your posts and pages. mxPress will scale and cache the images for use on Mxit based on the user's screen size
+- Use WordPress template files to customize your Mxit Portal's layout.
+- Define a custom menu using the WordPress menu manager to create your Mxit Menu
+- Show your latest posts on your Mxit landing page
+- Integration with Mxit's approved advertising network, Shinka for showing banner ads.  Just simply add your ad unit ID's on the mxPress Mxit settings page.
+- Paging built in to allow for easy navigation of Posts as well as comments on posts.
+
 = 0.1.0 =
 First production version. 2013-01-29
 
