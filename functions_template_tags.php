@@ -49,40 +49,44 @@ function mxpress_link_pages() {
         $multipage = true;
     }
 
-    $output = '';
-    if ($multipage) {
-        if ('number' == $next_or_number) {
-            $output .= $before;
-            for ($i = 1; $i < ($numpages + 1); $i = $i + 1) {
-                $j = str_replace('%', $i, $pagelink);
-                $output .= ' ';
-                if (($i != $page) || ((!$more) && ($page == 1))) {
-                    $output .= _wp_link_page($i);
-                }
-                $output .= $link_before . $j . $link_after;
-                if (($i != $page) || ((!$more) && ($page == 1)))
-                    $output .= '</a>';
-            }
-            $output .= $after;
-        } else {
-            if ($more) {
-                $output .= $before;
-                $i = $page - 1;
-                if ($i && $more) {
-                    $output .= _wp_link_page($i);
-                    $output .= $link_before . $previouspagelink . $link_after . '</a>';
-                }
-                $i = $page + 1;
-                if ($i <= $numpages && $more) {
-                    $output .= _wp_link_page($i);
-                    $output .= $link_before . $nextpagelink . $link_after . '</a>';
-                }
-                $output .= $after;
-            }
-        }
-    }
-    if ($echo)
-        echo $output;
+	$output = '';
+	
+	if ($numpages > 1)
+	{		
+		if ($multipage) {
+			if ('number' == $next_or_number) {
+				$output .= $before;
+				for ($i = 1; $i < ($numpages + 1); $i = $i + 1) {
+					$j = str_replace('%', $i, $pagelink);
+					$output .= ' ';
+					if (($i != $page) || ((!$more) && ($page == 1))) {
+						$output .= _wp_link_page($i);
+					}
+					$output .= $link_before . $j . $link_after;
+					if (($i != $page) || ((!$more) && ($page == 1)))
+						$output .= '</a>';
+				}
+				$output .= $after;
+			} else {
+				if ($more) {
+					$output .= $before;
+					$i = $page - 1;
+					if ($i && $more) {
+						$output .= _wp_link_page($i);
+						$output .= $link_before . $previouspagelink . $link_after . '</a>';
+					}
+					$i = $page + 1;
+					if ($i <= $numpages && $more) {
+						$output .= _wp_link_page($i);
+						$output .= $link_before . $nextpagelink . $link_after . '</a>';
+					}
+					$output .= $after;
+				}
+			}
+		}
+		if ($echo)
+			echo $output;
+	}
 
     return $output;
 }
