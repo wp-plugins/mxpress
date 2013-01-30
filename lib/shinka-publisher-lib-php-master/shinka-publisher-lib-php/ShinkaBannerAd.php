@@ -169,7 +169,6 @@ class ShinkaBannerAd {
         if ($this->_requestParam_xid == TESTUSER)
             print 'Generating HTML...<br/>';
 
-        $output = "xxx";
         if ($this->_type == self::TYPE_IMAGE) { // if add type is image
             if (IS_RESIZE_IMAGES) {
                 //With on the fly resizing:
