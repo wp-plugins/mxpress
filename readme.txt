@@ -74,6 +74,12 @@ mxPress also contains a variety of configuration values that allow you to decide
 
 == Changelog ==
 
+= 1.0.2 =
+Bug fix. 2013-01-30
+
+- Removed "xxx" characters from banner ads.
+- Only show page links when there are more than one page.
+
 = 1.0.1 =
 Bug fix. 2013-01-29
 
