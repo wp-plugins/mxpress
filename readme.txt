@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KAEWE
 Tags: mxpress,mxit,wordpress,mobi,code,dev,app
 Requires at least: 3.5
 Tested up to: 3.5.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: BSD-3 license
 License URI: http://opensource.org/licenses/BSD-3-Clause
 
@@ -73,6 +73,11 @@ mxPress also contains a variety of configuration values that allow you to decide
 
 
 == Changelog ==
+
+= 1.0.3 =
+Bug fix. 2013-01-30
+
+- Fixed problem with the Plugin causeing a "Dont know what to do" page.
 
 = 1.0.2 =
 Bug fix. 2013-01-30

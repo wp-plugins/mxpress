@@ -183,8 +183,7 @@ function mxpress_process_options($input) {
             }
             return $admin_options_tosave;
         default:
-            echo "Don'to what to do";
-            exit;
+            // Not dealing with mxPress options, pass-through
             break;
     }
 }
